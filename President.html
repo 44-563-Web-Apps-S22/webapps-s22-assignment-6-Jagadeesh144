@@ -41,10 +41,13 @@ function checkGuess(){
         alert("Wrong President")
         out.innerHTML= wrong
     }
-    function wrongGuess(){
+    if(wrong >= 3){
+     wrongGuess();
+}
+}
+function wrongGuess(){
             alert("Sorry, game over.");
         }
-}
 </script>
 <script>
     var useImage=1;
