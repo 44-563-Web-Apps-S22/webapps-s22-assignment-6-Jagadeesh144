@@ -9,21 +9,19 @@
     
         <h2>Jagadeesh Velivela orders a computer</h2>
     
-        <form style="background-color: beige;">
-            <input type="checkbox" id="extraMemory" name="extraMemory"   
-              value="extra" checked>
-            <label for="extraMoney">Extra memory</label></br>
-          
-            <input type="checkbox" id="Mouse" name="Mouse" 
-               value="mouse" checked>
-            <label for="Mouse">Mouse</label></br>
-          
-            <input type="checkbox" id="cellService" name="cellService"   
-               value="cell" checked>
-            <label for="cellService">Cell service</label></br>
-        
-            <input type="button" onclick="orderComputer()" value="Order a Computer" style="background-color: green;">
-          </form>
+        <form>
+            <input type="checkbox" id="check_1" name="check_1" value="extra">
+            <label for="check_1">Extra memory</label></br>
+    
+            <input type="checkbox" id="check_2" name="check_2" value="mouse">
+            <label for="check_2">Mouse</label></br>
+    
+            <input type="checkbox" id="check_3" name="check_3" value="cell">
+            <label for="check_3">Cell service</label></br>
+    
+            <input type="button" onclick="orderComputer()" value="Order a computer">
+        </form>
+    
         <form>
             <br>
             <input type="text" id="prop" name="prop" value="engraved">
@@ -33,7 +31,7 @@
             <input type="text" id="prop_value" name="prop_value">
             <label for="prop_value">Enter a value</label></br>
             <br>
-            <input type="button" onclick="updateComputer()" value="Update the computer" style="background-color: green;">
+            <input type="button" value="Update the computer" onclick="updateComputer()">
         </form>
     
     
